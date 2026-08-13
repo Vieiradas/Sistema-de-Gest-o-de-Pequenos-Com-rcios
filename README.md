@@ -5,7 +5,7 @@ Sistema de gestão de pequeno comércio desenvolvido como projeto prático para 
 Desenvolver uma aplicação capaz de realizar o cadastro e gerenciamento de clientes, integrando Python a um banco de dados PostgreSQL.
 
 # Tecnologias
-Python | PostgreSQL | SQL| Psycopg | Git/GitHub
+Python | PostgreSQL | SQL | Psycopg | Git/GitHub
 
 # Funcionalidades atuais
 Cadastro de clientes | Listagem de clientes | Armazenamento de nome, e-mail, CPF, telefone e data de nascimento | Integração entre Python e PostgreSQL | Proteção das credenciais utilizando variáveis de ambiente.
