@@ -1,24 +1,38 @@
-# Sistema-de-Gestão-de-Pequenos-Comércios
-Sistema de Gestão de Pequenos Comércios desenvolvido para práticar modelagem de dados relacionais e SQL com PostgreSQL.
+# Tech & Cia
+
+Sistema de gestão de pequeno comércio desenvolvido como projeto prático para estudo de Python, SQL e PostgreSQL.
+
+# Objetivo
+
+Desenvolver uma aplicação capaz de realizar o cadastro e gerenciamento de clientes, integrando Python a um banco de dados PostgreSQL.
+
+# Tecnologias
+
+Python
+PostgreSQL
+SQL
+Psycopg
+Git/GitHub
+
+# Funcionalidades atuais
+
+Cadastro de clientes
+Listagem de clientes
+Armazenamento de nome, e-mail, CPF, telefone e data de nascimento
+Integração entre Python e PostgreSQL
+Proteção das credenciais utilizando variáveis de ambiente
+
+# Estrutura
+
+Tech&Cia/
+  .gitignore
+  README.md
+  sql/
+  src/
+      conexao.py
+      formatacao.py
+      main.py
 
 # Status
-Em desenvolvimento.
 
-
-
-  ## Tech & Cia
-A proposta é criar um sistema capaz de armazenar e consultar informações de clientes, funcionários, produtos e vendas.
-  
-  ## Tecnologias:
-  PostgreSQL;
-  SQL;
-
-  ## O banco de dados terá informações sobre:
-  Clientes;
-  Produtos;
-  Vendas;
-  Itens das vendas.
-  Etc.
-  
-  ## Modelo do banco:
-  Diagrama.
+Em desenvolvimento
