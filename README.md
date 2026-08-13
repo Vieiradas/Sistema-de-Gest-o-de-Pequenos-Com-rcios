@@ -35,7 +35,7 @@ Levou a reorganização da conexão em uma função, que permitiu que cada opera
   def conectar():
       return psycopg.connect(...)
 
-
+    
 
 - Estrutura e consistência dos dados.
 
@@ -47,7 +47,7 @@ Durante os primeiros INSERTs, ocorreram erros relacionados à quantidade de colu
   SOLUÇÂO:
   [AJUSTE DE NOMES E VALORES]
 
-
+    
 
   - Validação de dados.
 
@@ -61,7 +61,7 @@ O PostgreSQL rejeitou corretamente dados inválidos, como uma data inexistente: 
 
   OBSERVAÇÂO: Também foi percebida a necessidade de formatar e validar CPF, telefone, e-mail e datas antes de enviá-los ao banco. Além de aprender sobre a tradução de ordem, exemplo: 30/11/1999 para 1999/11/30.
 
-
+    
 
  - Configuração do ambiente.
 
