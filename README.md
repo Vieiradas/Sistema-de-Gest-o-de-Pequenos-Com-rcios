@@ -7,7 +7,6 @@ Em desenvolvimento.
 
 
   ## Tech & Cia
-
 A proposta é criar um sistema capaz de armazenar e consultar informações de clientes, funcionários, produtos e vendas.
   
   ## Tecnologias:
@@ -16,10 +15,10 @@ A proposta é criar um sistema capaz de armazenar e consultar informações de c
 
   ## O banco de dados terá informações sobre:
   Clientes;
-  Funcionários;
   Produtos;
   Vendas;
   Itens das vendas.
+  Etc.
   
   ## Modelo do banco:
   Diagrama.
