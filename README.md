@@ -12,12 +12,18 @@ Cadastro de clientes | Listagem de clientes | Armazenamento de nome, e-mail, CPF
 
 # Estrutura
 Tech&Cia/
-  .gitignore
-  README.md
-  sql/
-  src/
+  
+.gitignore
+
+README.md
+
+sql/
+
+ src/
       conexao.py
+      
       formatacao.py
+      
       main.py
 
 # Status
