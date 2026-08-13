@@ -14,7 +14,7 @@ CREATE TABLE | INSERT | SELECT | UPDATE | DELETE | ALTER TABLE | PRIMARY KEY | F
 Criação de conexão | Fechamento de conexão | cursor | execute | fetchall | commit.
 
 # Git
-bash | git init | git status | git add | git commit -m "Initial commit" | git remote -v | git push -u origin master.
+Bash | git init | git status | git add | git commit -m "Initial commit" | git remote -v | git push -u origin master.
 
 # Organização e segurança
 Uso de .env | .gitignore | Separação de credenciais do código | Organização de arquivos por responsabilidade.
