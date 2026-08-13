@@ -25,6 +25,7 @@ Uso de .env | .gitignore | Separação de credenciais do código | Organização
 - Integração Python + PostgreSQL.
   
 No início, a conexão apresentava problemas porque o objeto de conexão era fechado no conexao.py antes de ser utilizado pelo main.py.
+  
   ERRO:
   psycopg2.InterfaceError: connection already closed.
   
@@ -38,6 +39,7 @@ Levou a reorganização da conexão em uma função, que permitiu que cada opera
 - Estrutura e consistência dos dados.
 
 Durante os primeiros INSERTs, ocorreram erros relacionados à quantidade de colunas, valores e nomes incorretos. Isso ajudou a entender a necessidade de manter correspondência entre dados e de manter os nomes das colunas consistentes entre Python e PostgreSQL.
+  
   ERRO:
   coluna "data_nasc" da relação "clientes" não existe.
 
@@ -49,6 +51,7 @@ Durante os primeiros INSERTs, ocorreram erros relacionados à quantidade de colu
   - Validação de dados.
 
 O PostgreSQL rejeitou corretamente dados inválidos, como uma data inexistente: 30-02-1998.
+  
   ERRO:
   DatetimeFieldOverflow
 
