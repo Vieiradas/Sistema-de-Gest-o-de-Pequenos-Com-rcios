@@ -30,6 +30,7 @@ No início, a conexão apresentava problemas porque o objeto de conexão era fec
   psycopg2.InterfaceError: connection already closed.
   
 Levou a reorganização da conexão em uma função, que permitiu que cada operação criasse sua própria conexão.
+  
   SOLUÇÂO:
   def conectar():
       return psycopg.connect(...)
