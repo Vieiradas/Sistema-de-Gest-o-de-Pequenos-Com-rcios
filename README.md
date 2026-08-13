@@ -1,5 +1,7 @@
 ## Acesse o ramo 'Mestre' para atualizações.
 
+[Essa versão é um protótipo]
+
 # Tech & Cia
 Sistema de gestão de pequeno comércio desenvolvido como projeto prático para estudo de Python, SQL e PostgreSQL.
 
